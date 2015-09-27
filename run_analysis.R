@@ -62,5 +62,7 @@ data <- cbind(subject_merged, y_merged, filtered_x_merged)
 
 # summarizing final dataset by activity and subject using summarise_each command from dplyr package and 
 # exporting it to a file 
+summarize_and_export <- function(){
 values <- summarise_each(group_by(data, SubjectId, Activity), funs(mean))
 write.table(values, file="tidy_data.txt", row.name=FALSE)
+}
