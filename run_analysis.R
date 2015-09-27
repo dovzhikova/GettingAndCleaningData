@@ -2,7 +2,7 @@
 library("dplyr")
 
 # downloading and extracting files to the working directory
-load_dataset <- function() {
+load_datasets <- function() {
   fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(fileurl, destfile="UCI_HAR_Dataset.zip")
   unzip("UCI_HAR_Dataset.zip", overwrite = TRUE)
