@@ -30,10 +30,10 @@ For each record in the dataset it is provided:
 
 ## Reading, merging and cleaning up data
 
-*load_datasets()* function in run_analysis.R downloads the necessary files to the working directory. 
-read_datasets() function reads them into R. 
-merge_datasets() function merges the test and train datasets into 3 combined datasets (x_merged, y_merged and subject_merged). 
-beautify_x_colnames() function makes a set of changes to the variables in x_merged dataset in order to make them more readable and clean. 
-After that the new dataset is created from x_merged that consists of columns that contain either mean or standard deviation records. 
-summarize_and_export() function summarises final dataset by activity and subject using summarise_each command from dplyr package and exports it to a file "tidy_data.txt". 
+* *load_datasets()* function in run_analysis.R downloads the necessary files to the working directory. 
+* *read_datasets()* function reads them into R. 
+* *merge_datasets()* function merges the test and train datasets into 3 combined datasets (x_merged, y_merged and subject_merged). 
+* *beautify_x_colnames()* function makes a set of changes to the variables in x_merged dataset in order to make them more readable and clean. 
+* After that the new dataset is created from x_merged that consists of columns that contain either mean or standard deviation records. 
+* *summarize_and_export()* function summarises final dataset by activity and subject using summarise_each command from dplyr package and exports it to a file "tidy_data.txt". 
 
