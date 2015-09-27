@@ -30,7 +30,7 @@ For each record in the dataset it is provided:
 
 ## Reading, merging and cleaning up data
 
-load_datasets() function in run_analysis.R downloads the necessary files to the working directory. 
+*load_datasets()* function in run_analysis.R downloads the necessary files to the working directory. 
 read_datasets() function reads them into R. 
 merge_datasets() function merges the test and train datasets into 3 combined datasets (x_merged, y_merged and subject_merged). 
 beautify_x_colnames() function makes a set of changes to the variables in x_merged dataset in order to make them more readable and clean. 
